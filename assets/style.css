@@ -4,10 +4,7 @@
   box-sizing: border-box;
   font-family: 'Hind Madurai', sans-serif;
 }
-
-.developer {
-  color: #9e2a2b;
-}
+ a{text-decoration: none;}
 .image-container {
     position: relative;
 
@@ -44,8 +41,12 @@ color: #9e2a2b;
 .scrollup:hover{color:#540b0e;}
 
 a i{font-size: 1.5rem;
-padding:0 1rem;
-margin-top:0.75rem;}
+padding:0 0.2rem;
+margin-top:0.75rem;
+color:#9e2a2b;
+
+}
+
 
 .competenze{list-style-type: none;
 }
@@ -53,4 +54,4 @@ margin-top:0.75rem;}
 height: auto;
 }
 
-.keyword{color:#9e2a2b}
+.keyword{color:#9e2a2b};

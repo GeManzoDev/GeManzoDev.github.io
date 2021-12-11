@@ -6,10 +6,12 @@
 }
  a{text-decoration: none;}
 .image-container {
-    position: relative;
+    position: relative;}
+
+#personal_foto{max-height: 80%;
+  width: auto;}
 
 
-}
 .image-container .after {
     position: absolute;
     top: 0;

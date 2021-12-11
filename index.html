@@ -4,7 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
   <!-- mailjs -->
+
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
   <script type="text/javascript">
   (function() {
@@ -27,6 +29,7 @@ window.onload = function() {
 </script>
 
 <!-- bootstrap -->
+
 <link
 href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
 rel="stylesheet"
@@ -34,227 +37,191 @@ integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jI
 crossorigin="anonymous"
 />
 <!-- hover effects -->
+
 <link rel="stylesheet" href="assets/hover.css">
+
 <!-- animate -->
+
 <link
 rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
+
 <!--fontawesome -->
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
 <!-- google fonts -->
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Andada+Pro&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto+Slab:wght@200;400;800&display=swap" rel="stylesheet">
+
 <!-- css -->
+
 <link rel="stylesheet" href="assets/style.css" />
+
 <!-- favicon -->
+
 <link rel="icon" href="img/icons/icons8-developer-64.png" type="image/png" />
+
+<!-- titolo  -->
+
 <title>Gennaro Manzo</title>
 
 </head>
-<body class="container">
+
+<body class="container-fluid">
 
   <!--   navbar-->
-
 
   <nav
   class="navbar sticky-lg-top navbar-expand-sm navbar-dark bg-gradient mt-4 mx-5 animate__animated animate__flipInX animate__delay-0.5s animate__slow"
   style="background-color:#ffffff;"
   >
-    <div class="container-fluid">
-      <a href="index.html"
-      class="navbar-brand mb-0 h1 warning fs-5 "
-      style="color:#335c67; "
-      >Gennaro <br>    Manzo</a
-      >
-      <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarNav"
-      aria-controls="navbarNav"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-      >
-      <span class="navbar-toggler-icon" style="color:black; background-color:#335c67;"></span>
+  <div class="container-fluid">
+    <a href="index.html"
+    class="navbar-brand mb-0 h1 warning fs-5 "
+    style="color:#335c67; "
+    >Gennaro <br>    Manzo</a
+    >
+    <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+    aria-controls="navbarNav"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+    >
+    <span class="navbar-toggler-icon" style="color:black; background-color:#335c67;"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto ">
-        <li class="nav-item">
-          <a  style="color:#335c67"class=" hvr-underline-from-center nav-link active fs-6 me-3" aria-current="page" href="about_me.html">Su di me</a>
-        </li>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ms-auto ">
+      <li class="nav-item">
+        <a  style="color:#335c67"class=" hvr-underline-from-center nav-link active fs-6 me-3" aria-current="page" href="about_me.html">Su di me</a>
+      </li>
 
 
 
-        <li class="nav-item">
-          <a  style="color:#335c67; "class=" hvr-underline-from-center nav-link fs-6" href="projects.html">I miei lavori</a>
-        </li>
-        <a  href="contacts.html"class="btn btn-outline-success rounded-pill ms-4 me-3" >Contattami</a>
-
-      </div>
-    </div>
-  </nav>
+      <li class="nav-item">
+        <a  style="color:#335c67; "class=" hvr-underline-from-center nav-link fs-6" href="projects.html">I miei lavori</a>
+      </li>
+      <a  href="contacts.html"class="btn btn-outline-success rounded-pill ms-4 me-3" >Contattami</a>
+    </ul>
+  </div>
+  </div>
+</nav>
 <!--     fine navbar -->
 
 <!-- Inizio Sezione di Presentazione -->
-<section id="about"class="container mt-5 mb-5">
+
+<section id="about"class="container mt-5">
   <div class="row">
-    <div class="col-lg-6 text-center mt-5 pt-5">
-      <h2 class=" text-uppercase animate__animated animate__bounceInDown animate__delay-0.5s animate__slower	1s " style="font-size: 3rem; font-family:'Hind Madurai', sans-serif;">Sviluppatore web</h2>
-      <p class="lead mt-5 pt-5 animate__animated animate__bounceInLeft animate__delay-1s animate__slower	1s " style="line-height:3rem; font-size: 1.1rem;"> Ciao sono Gennaro, ho 28 anni e vengo da Brescia. <br> <br>
-        Attualmente lavoro  come Barman <i class="fas fa-cocktail" style="color:#335c67"></i> ed istruttore di kick-boxing <i class="fas fa-hand-rock" style="color:#9e2a2b"></i>, le mie due grandi passioni. <br> <br> Ho deciso di dare una svolta alla mia vita, iniziando un percorso di studi online per diventare <span class="keyword hvr-pulse-shrink">sviluppatore web front-end</span>.
+    <div class="col-lg-6 text-center mt-5 pt-5 align-middle ">
+      <h2 class=" fw-bolder py-3 text-uppercase animate__animated animate__bounceInDown animate__delay-0.5s animate__slower	1s " style="font-size: 3rem; font-family:'Hind Madurai', sans-serif;">Sviluppatore web</h2>
+      <h3 class="fs-5 fw-light mt-5 py-4 animate__animated animate__bounceInLeft animate__delay-1s animate__slower	1s " style="font-family:'Hind Madurai', sans-serif;"> Ciao sono Gennaro, ho 28 anni e vengo da Brescia. </h3>
+      <p class="lead fs-5 fw-light mb-3 py-4 animate__animated animate__bounceInLeft animate__delay-0.5s animate__slower	1s">Dopo una carriera lavorativa varia e stimolante che mi ha permesso di mettermi in gioco diverse volte,</p>
+      <p class="fs-4 fw-bold fst-italic py-4 animate__animated animate__bounceInLeft animate__delay-0.5s animate__slower	1s">Ho deciso di dare una svolta alla mia vita iniziando un percorso di studi online per diventare <span class="keyword hvr-pulse-shrink">sviluppatore web front-end</span>.
       </p>
-
     </div>
-
-
-    <div class="col-lg-6">
-      <figure class="figure">
-        <img src="img/foto_portfolio/IMG_1536.jpg" class="figure-img img-fluid align-center animate__animated animate__bounceInRight animate__delay-2s animate__slower 2s " alt="">
-        <figcaption class="figure-caption"></figcaption>
-      </figure>
+    <div class="col-lg-6 text-center">
+      <img src="img/foto_portfolio/IMG_1536.jpg" id="personal_foto"class="figure-img img-fluid animate__animated animate__bounceInRight animate__delay-2s animate__slower 2s" alt="immagine ">
+      <figcaption class="figure-caption"></figcaption>
     </div>
   </div>
-  <!-- fine presentazione -->
-  <!-- sezione "le  mie skills" -->
 
 
-  <section id="skills" class="container px-1">
-    <div class="row">
-      <div class="col-lg-5 mx-md-5">
-        <h3 class="fs-3 fw-bold mt-5 text-center mb-3">Competenze in acquisizione <img src="https://img.icons8.com/external-inipagistudio-lineal-color-inipagistudio/64/000000/external-growth-operation-management-inipagistudio-lineal-color-inipagistudio.png" class="img-fluid mt-2 mt-md-0 mb-2"  width="8%" height="auto";/></h3>
-        <p class="fw-lighter fs-6 text-center ">Sto seguendo un percorso di studi per diventare <span class="developer hvr-pulse-shrink">sviluppatore web front-end</span> sulla piattaforma <a href="https://talent.start2impact.it/ " style="text-decoration: none; color:#90be6d">Start2Impact</a>
-          che mi permetterà di acquisire le competenze necessarie per fare di questa passione un lavoro! </p>
-          <br>
-          <h5 class="h3 mb-2 text-center">Più precisamente sarò in grado di:</h5>
-          <ul id="competenze" class="text-center">
-            <li class="competenze text-center me-md-5"><img class="img-fluid dev-icon mb-2" src="img/icons/icons8-sviluppatore.gif" alt=""><p class="fw-lighter fs-6 mb-1 ">Creare e gestire siti web con i principali linguaggi di <span class="keyword hvr-pulse">markup</span> e <span class="keyword hvr-pulse ">programmazione</span>;</p>
-            </li>
-            <li class="competenze text-center me-md-5"><img class="img-fluid dev-icon mb-2" src="img/icons/icons8-sviluppatore.gif" alt=""><p class="fw-lighter fs-6 mb-1 ">Padroneggiare tecnologie lato front-end come <span class="keyword hvr-pulse">Bootstrap</span>, <span class="keyword hvr-pulse">Sass</span> e <span class="keyword hvr-pulse">React</span>;</p>
-            </li>
-            <li class="competenze text-center me-md-5"><img class="img-fluid dev-icon mb-2" src="img/icons/icons8-sviluppatore.gif" alt=""><p class="fw-lighter fs-6 ">Utilizzare <span class="keyword hvr-pulse">Wordpress</span> a seconda delle esigenze del cliente.</p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-5 my-2 mt-5 mb-5">
-          <h3 class="fs-3 fw-bold mt-5 pt-1 text-center mb-3" > Sto migliorando le mie skills:</h3>
-          <div class="progress-bar-wrapper py-2 pb-md-4">
-            <div class="progress-bar-label"><i class="fab fa-html5 fs-1 mt-2 mb-1"></i></div>
-            <div class="progress progress-color">
-              <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress-bar-wrapper py-2 py-md-4">
-            <div class="progress-bar-label"><i class="fab fa-css3-alt fs-1 mt-2 mb-1"></i></div>
-            <div class="progress progress-color">
-              <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress-bar-wrapper py-2 py-md-4">
-            <div class="progress-bar-label"><i class="fab fa-js-square fs-1 mt-2 mb-1"></i></div>
-            <div class="progress progress-color">
-              <div class="progress-bar bg-warning" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="progress-bar-wrapper py-2 py-md-4">
-            <div class="progress-bar-label"><i class="fab fa-bootstrap fs-1 mt-2 mb-1"></i></div>
-            <div class="progress progress-color">
-              <div class="progress-bar bg-success"  role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+  <!-- bottone "su di me" -->
 
-          </div>
-        </div>
-
-      </div>
+  <div class="row mb-5">
+    <div class="col-6 text-center">
+      <a  href="about_me.html"class="btn btn-outline-success px-5 w-90"> About </a>
     </div>
 
-  </section>
+    <!-- bottone "portfolio" -->
+
+    <div class="col-6 text-center">
+      <a  href="projects.html"class="btn btn-outline-success px-5 w-90" >Portfolio</a>
+    </div>
+  </div>
+
+</section>
+<!-- fine presentazione -->
 
 
-  <!-- Fine "le mie skills" -->
+<!-- footer -->
 
-  
+<footer class="text-center text-lg-start bg-light text-muted pt-1">
 
-  <!-- fine sezione progetti -->
+  <div class="container text-center text-md-start mt-5">
 
-
-
-  <!-- footer -->
-
-  <footer class="text-center text-lg-start bg-light text-muted pt-1">
-
-    <div class="container text-center text-md-start mt-5">
-
-      <div class="row mt-5">
+    <div class="row mt-5">
 
 
 
-        <div class="servizi col-4 mx-auto mb-4">
+      <div class="servizi col-4 mx-auto mb-4">
 
-          <h6 class="text-uppercase fw-bold mb-4">
-            Servizi
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Realizzazione sito.</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Consulenze.</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Collaborazioni.</a>
-          </p>
-        </div>
+        <h6 class="text-uppercase fw-bold mb-4">
+          Servizi
+        </h6>
+        <p class="text-reset">
+          Realizzazione siti.</a>
+        </p>
+        <p class="text-reset">
+          Consulenze.</a>
+        </p>
+        <p class="text-reset">
+          Collaborazioni.</a>
+        </p>
+      </div>
 
-        <div class="col-8 col-md-4 col-lg-3 mx-md-auto mb-4">
+      <div class="col-8 col-md-4 col-lg-3 mx-md-auto mb-4">
 
-          <h6 class="text-uppercase fw-bold mb-3 text-center">
-            Social
-          </h6>
+        <h6 class="text-uppercase fw-bold mb-3 text-center">
+          Social
+        </h6>
 
-          <!-- Facebook -->
+        <!-- Facebook -->
+        <a class="btn btn-outline-light" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+          ></a>
+          <!-- Linkedin -->
           <a class="btn btn-outline-light" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
+          ><i class="fab fa-linkedin-in"></i
             ></a>
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light" href="#!" role="button"
-            ><i class="fab fa-linkedin-in"></i
-              ></a>
 
-              <!-- Github -->
+            <!-- Github -->
+            <a class="btn btn-outline-light" href="#!" role="button"
+            ><i class="fab fa-github"></i
+              ></a>
               <a class="btn btn-outline-light" href="#!" role="button"
-              ><i class="fab fa-github"></i
+              ><i class="fab fa-twitter"></i
                 ></a>
                 <a class="btn btn-outline-light" href="#!" role="button"
-                ><i class="fab fa-twitter"></i
+                ><i class="fab fa-google"></i
                   ></a>
                   <a class="btn btn-outline-light" href="#!" role="button"
-                  ><i class="fab fa-google"></i
+                  ><i class="fab fa-instagram"></i
                     ></a>
-                    <a class="btn btn-outline-light" href="#!" role="button"
-                    ><i class="fab fa-instagram"></i
-                      ></a>
+                  </div>
+
+                  <!-- Fine Social media -->
+
+                  <!-- contatti -->
+
+                  <div class="col-12 col-md-4 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase fw-bold mb-4">
+                      Contatti
+                    </h6>
+                    <p><i class="fas fa-home me-3"></i> Brescia, BS 25121, IT</p>
+                    <p>
+                      <p><i class="fab fa-whatsapp me-3"></i>+39 3349781520</p>
+
+                      <p><i class="fas fa-phone me-3"></i> 030776644</p>
                     </div>
-
-                      <!-- Fine Social media -->
-
-                    <!-- <div class="row"> -->
-
-                    <div class="col-12 col-md-4 mx-auto mb-md-0 mb-4">
-                      <!-- contatti -->
-                      <h6 class="text-uppercase fw-bold mb-4">
-                        Contatti
-                      </h6>
-                      <p><i class="fas fa-home me-3"></i> Brescia, BS 25121, IT</p>
-                      <p>
-                        <p><i class="fab fa-whatsapp me-3"></i>+39 3349781520</p>
-
-                        <p><i class="fas fa-phone me-3"></i> 030776644</p>
-                      </div>
-                      </div>
-                    <!-- </div> -->
-
-
+                  </div>
 
                   <!-- fine contatti -->
 
@@ -264,6 +231,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                     <a  href="contacts.html"class="btn btn-outline-success py-3">Contattami</a>
                   </div>
                 </footer>
+
                 <!-- fine Footer -->
 
 
@@ -272,6 +240,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
                 <!--     script bootstrap -->
+
                 <script
                 src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
